@@ -1,14 +1,14 @@
 class Setup(object):
     def __init__(self):
         self.allowed_commands = [
-            'help',
+            'ajuda',
             'descrever',
-            'exit'
+            'sair'
         ]
         self.commands_descriptions = {
-            'help': 'Mostrar essa página',
+            'ajuda': 'Mostrar essa página',
             'descrever': 'Perguntar ao mestre o que à nos',
-            'exit': 'Sair do jogo'
+            'sair': 'Sair do jogo'
         }
 
     def help_command(self):

@@ -3,5 +3,8 @@ class World(object):
         lat = [None for _ in range(heigth)]
         self.map = [lat for _ in range(width)]
 
+    def setPlayer(self, player):
+        self.player = player
+
     def getMap(self):
-        return self.map
+        return self.player.getNickname()
